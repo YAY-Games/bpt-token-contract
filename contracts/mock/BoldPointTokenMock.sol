@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
+// solhint-disable no-empty-blocks
 
 pragma solidity 0.8.10;
 
 import "../BoldPointToken.sol";
 
-// mock class using ERC20
 contract BoldPointTokenMock is BoldPointToken{
 
     constructor() BoldPointToken() {}
