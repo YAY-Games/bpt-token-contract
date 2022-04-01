@@ -9,7 +9,7 @@
 
 // SPDX-License-Identifier: MIT
 // solhint-disable func-visibility
-pragma solidity 0.8.10;
+pragma solidity 0.8.13;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
@@ -22,11 +22,11 @@ contract BoldPointToken is ERC20, ERC20Burnable, ERC20Permit, ERC20Pausable, Own
         _mint(msg.sender, 1_000_000_000 * 10 ** decimals());
     }
 
-    function pause() public onlyOwner {
+    function pause() external onlyOwner {
         _pause();
     }
 
-    function unpause() public onlyOwner {
+    function unpause() external onlyOwner {
         _unpause();
     }
 
