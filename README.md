@@ -1,6 +1,6 @@
 # $BPT token smart contract
 
-- Language: Solidity v0.8.10
+- Language: Solidity v0.8.13
 
 - Project framework: hardhat + truffle / web3
 
