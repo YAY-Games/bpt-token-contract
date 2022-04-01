@@ -4,6 +4,6 @@
     "mark-callable-contracts": "off",
     "no-complex-fallback": "off",
     "reason-string": "off",
-    "compiler-version": ["warn", "0.8.10"]
+    "compiler-version": ["warn", "0.8.13"]
   }
 }
