@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // solhint-disable no-empty-blocks
 
-pragma solidity 0.8.10;
+pragma solidity 0.8.13;
 
 import "../BoldPointToken.sol";
 
