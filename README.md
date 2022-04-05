@@ -10,7 +10,7 @@
 
 ### Deployed
 
-[Avalanche C-Chain](https://bscscan.com/token/)
+[Avalanche C-Chain, production](https://snowtrace.io/address/0x1111111111182587795ef1098ac7da81a108c97a)
 
 ## Installation & Usage
 
